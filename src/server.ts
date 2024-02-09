@@ -1,11 +1,11 @@
 import express,  {NextFunction, Request, Response, json} from 'express'
-import userRouter from './Routes/user.router'
+import noteRouter from './Routes/note.router'
 
 const app = express()
 
 app.use(json())
 
-app.use('/users', userRouter)
+app.use("/notes", noteRouter);
 
 app.use((error: Error, req: Request, res: Response, next: NextFunction)=>{
     res.json({
