@@ -2,9 +2,8 @@ POST http://localhost:4100/notes
 Content-Type: application/json
 
 {
-    "title": " Note 3",
-    "content": "Trying new notebooks app",
-    "createdAt": "9/2/2024"
+    "title": " Notice",
+    "content": "Trying new notebooks app"
 }
 
 ### GETTING ALL NOTES
@@ -15,20 +14,19 @@ Content-Type: application/json
 
 ### GETTING NOTE BY ID
 
-GET http://localhost:4100/notes/2778c94d-8bf7-4e99-b377-805fbcf2cb42
+GET http://localhost:4100/notes/1c55e825-60ee-4120-8e58-f65215e4ace5
 
 
 ###
-PUT http://localhost:4100/notes/update/0671242c-9260-43ee-a842-7eef5cd9e5ec
+PUT http://localhost:4100/notes/update/1c55e825-60ee-4120-8e58-f65215e4ace5
 Content-Type: application/json
 
 {
     "title": "First Note",
-    "content": "I aced it",
-    "createdAt": "9/2/2024"
+    "content": "I aced it"
 }
 
 ###
 
-DELETE http://localhost:4100/notes/delete/333e83e1-ad39-4b36-a247-cb7dd6dca20e
+DELETE http://localhost:4100/notes/delete/0b5b5bb2-76ff-400c-8bf5-602329cf31ab
 Content-Type: application/json
