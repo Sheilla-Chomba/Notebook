@@ -14,11 +14,11 @@ Content-Type: application/json
 
 ### GETTING NOTE BY ID
 
-GET http://localhost:4100/notes/1c55e825-60ee-4120-8e58-f65215e4ace5
+GET http://localhost:4100/notes/b01f3204-8635-4d7a-a4f4-1cf5ed38c340
 
 
 ###
-PUT http://localhost:4100/notes/update/1c55e825-60ee-4120-8e58-f65215e4ace5
+PUT http://localhost:4100/notes/update/b01f3204-8635-4d7a-a4f4-1cf5ed38c340
 Content-Type: application/json
 
 {
